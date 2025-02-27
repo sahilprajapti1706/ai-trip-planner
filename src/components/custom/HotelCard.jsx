@@ -21,7 +21,7 @@ const HotelCard = ({hotel}) => {
             const photoName = res.data.places[0].photos[3].name;
             const url = `https://places.googleapis.com/v1/${photoName}/media?maxHeightPx=400&maxWidthPx=1000&key=${import.meta.env.VITE_GOOGLE_API_KEY}`
             setPhotoUrl(url);
-            console.log(url);
+            // console.log(url);
           })
         }
     

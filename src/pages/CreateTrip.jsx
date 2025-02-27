@@ -38,7 +38,7 @@ const CreateTrip = () => {
      getUserProfile(response);
     },
     onError: (error) => {
-      console.log(error);
+      // console.log(error);
     },
   })
 
@@ -100,7 +100,7 @@ const CreateTrip = () => {
 
   
   useEffect(() => {
-    console.log(formData);
+    // console.log(formData);
   }, [formData]);
 
   return (
