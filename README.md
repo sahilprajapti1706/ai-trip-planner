@@ -19,7 +19,7 @@ An intelligent trip planning application that leverages AI to create personalize
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/yourusername/ai-trip-planner.git
+   git clone https://github.com/sahilprajapti1706/ai-trip-planner.git
    cd ai-trip-planner
    ```
 
@@ -28,23 +28,17 @@ An intelligent trip planning application that leverages AI to create personalize
    npm install
    ```
 
-3. **Set Up Firebase**:
-   - Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
-   - Enable Firestore Database.
-   - Enable Google OAuth in Firebase Authentication.
-   - Get your Firebase config and update `.env`:
-     ```sh
-     REACT_APP_FIREBASE_API_KEY=your-api-key
-     REACT_APP_FIREBASE_AUTH_DOMAIN=your-auth-domain
-     REACT_APP_FIREBASE_PROJECT_ID=your-project-id
-     REACT_APP_FIREBASE_STORAGE_BUCKET=your-storage-bucket
-     REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
-     REACT_APP_FIREBASE_APP_ID=your-app-id
-     ```
+3. **Set Up Environment Variables**:
+   Create a `.env` file in the root directory and add the following:
+   ```sh
+   VITE_GOOGLE_API_KEY=
+   VITE_GEMINI_API_KEY=
+   VITE_GOOGLE_CLIENT_API_ID=
+   ```
 
 4. **Run the Project**:
    ```sh
-   npm start
+   npm run dev
    ```
 
 ## Usage
@@ -57,9 +51,6 @@ An intelligent trip planning application that leverages AI to create personalize
 - Add real-time weather and flight details.
 - Enhance AI recommendations based on past trips.
 - Improve UI/UX with more animations.
-
-## License
-This project is open-source and available under the MIT License.
 
 ---
 
